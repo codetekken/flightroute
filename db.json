@@ -4,6 +4,12 @@
     { "id": 2, "title": "Post 2" },
     { "id": 3, "title": "Post 3" }
   ],
+  "route": [
+    { "source": "BLR", "dest": "HYD","class":"Economy",price:"5000 INR" },
+    { "source": "HYD", "dest": "SIN","class":"Economy",price:"25000 INR" },
+    { "source": "HYD", "dest": "SIN","class":"Business",price:"45000 INR" },
+    { "source": "BLR", "dest": "DEL","class":"Economy",price:"4500 INR" },
+  ],
   "comments": [
     { "id": 1, "body": "some comment", "postId": 1 },
     { "id": 2, "body": "some comment", "postId": 1 }
